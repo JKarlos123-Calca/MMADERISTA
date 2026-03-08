@@ -237,7 +237,7 @@ function playBackgroundMusic() {
       btn.textContent = '🔊 Algo que puede gustarte';
     } else {
       audio.pause();
-      btn.textContent = '🔈 Algo que puede gustarte';
+      btn.textContent = '🔈 Clic ';
     }
   };
 }
