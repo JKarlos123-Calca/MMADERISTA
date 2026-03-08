@@ -229,15 +229,15 @@ function playBackgroundMusic() {
     btn.textContent = '🔊 Música';
   }).catch(() => {
     // Si falla el autoplay, esperar click en el botón
-    btn.textContent = '▶️ Música';
+    btn.textContent = '▶️ Algo que puede gustarte';
   });
   btn.onclick = () => {
     if (audio.paused) {
       audio.play();
-      btn.textContent = '🔊 Música';
+      btn.textContent = '🔊 Algo que puede gustarte';
     } else {
       audio.pause();
-      btn.textContent = '🔈 Música';
+      btn.textContent = '🔈 Algo que puede gustarte';
     }
   };
 }
