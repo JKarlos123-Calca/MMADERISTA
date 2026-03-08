@@ -209,7 +209,7 @@ function playBackgroundMusic() {
   if (!btn) {
     btn = document.createElement('button');
     btn.id = 'music-btn';
-    btn.textContent = '🔊 Música';
+    btn.textContent = '🔊 Algo que puede gustarte';
     btn.style.position = 'fixed';
     btn.style.bottom = '18px';
     btn.style.right = '18px';
@@ -226,7 +226,7 @@ function playBackgroundMusic() {
   audio.loop = true;
   // Intentar reproducir inmediatamente
   audio.play().then(() => {
-    btn.textContent = '🔊 Música';
+    btn.textContent = '🔊 Algo que puede gustarte';
   }).catch(() => {
     // Si falla el autoplay, esperar click en el botón
     btn.textContent = '▶️ Algo que puede gustarte';
