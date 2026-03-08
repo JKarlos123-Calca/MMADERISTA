@@ -54,7 +54,7 @@ body {
   bottom: auto;
   transform: none;
   font-size: 1.25rem;
-  color: #e60026;
+  color: hwb(263 20% 46%);
   opacity: 0;
   z-index: 5;
   white-space: pre;
